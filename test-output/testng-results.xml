@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-22T16:02:54Z" name="Suite" finished-at="2020-12-22T16:32:45Z" duration-ms="1790686">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.billApprovalWorkflow.runner.TestRunner@12d4bf7e]" name="feature" class="com.qa.billApprovalWorkflow.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-12-22T16:02:54Z" name="Test" finished-at="2020-12-22T16:32:45Z" duration-ms="1790686">
+      <class name="com.qa.billApprovalWorkflow.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.qa.billApprovalWorkflow.runner.TestRunner@12d4bf7e]" started-at="2020-12-22T21:32:55Z" name="setUpClass" finished-at="2020-12-22T21:32:55Z" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.billApprovalWorkflow.runner.TestRunner@12d4bf7e]" started-at="2020-12-22T21:32:55Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-22T22:02:45Z" duration-ms="1789979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation testing on 3 Way Match Vendor Bill Approval Workflow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.billApprovalWorkflow.runner.TestRunner@12d4bf7e]" started-at="2020-12-22T22:02:45Z" name="tearDownClass" finished-at="2020-12-22T22:02:45Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.billApprovalWorkflow.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
